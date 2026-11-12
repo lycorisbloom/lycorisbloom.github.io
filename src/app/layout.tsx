@@ -1,15 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Montserrat, Kumar_One } from "next/font/google";
+import localFont from 'next/font/local';
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const montserratSans = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const bavistaSoulvare = localFont({
+  src: '../../public/fonts/BavistaSoulvare-ALJP2.ttf',
+  variable: '--font-bavista-soulvare',
+});
+
+const kumarOne = Kumar_One({
+  variable: "--font-kumar-one",
   subsets: ["latin"],
+  weight: "400"
 });
 
 export const metadata: Metadata = {
@@ -25,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${montserratSans.variable} ${kumarOne.variable}  ${bavistaSoulvare.variable} antialiased`}
       >
         {children}
       </body>
