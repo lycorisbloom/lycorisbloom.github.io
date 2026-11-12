@@ -3,6 +3,8 @@
 :root {
   --background: #ffedd2;
   --foreground: #294122;
+  --text-light: #ffedd2;
+  --text-dark: #294122;
 }
 
 @theme inline {
@@ -11,14 +13,16 @@
   --font-montserrat: var(--font-montserrat);
   --font-kumar: var(--font-kumar-one);
   --font-bavista: var(--font-bavista-soulvare);
+  --color-text-light: var(--text-light);
+  --color-text-dark: var(--text-dark);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);

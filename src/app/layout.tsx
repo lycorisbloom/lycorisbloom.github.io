@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${montserratSans.variable} ${kumarOne.variable}  ${bavistaSoulvare.variable} antialiased`}
       >
