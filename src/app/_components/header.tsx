@@ -13,10 +13,10 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="hamburg">
-                    <svg className="hj fill-text-light md:hidden" height="50" width="50" viewBox="0 0 75 75">
-                        <rect className="top" x="15" y="21.75" width="40" height="5"></rect>
-                        <rect className="middle" x="15" y="34.1809" width="40" height="5"></rect>
-                        <rect className="bottom" x="15" y="46.6117" width="40" height="5"></rect>
+                    <svg className="hj fill-text-light md:hidden" height="40" width="40" viewBox="0 0 60 60">
+                        <rect className="top" x="15" y="21.75" width="30" height="5"></rect>
+                        <rect className="middle" x="15" y="34.1809" width="30" height="5"></rect>
+                        <rect className="bottom" x="15" y="46.6117" width="30" height="5"></rect>
                     </svg>
                 </div>
             </div>

@@ -24,7 +24,7 @@ export default function Home() {
             </div>
           </div>
           <div id="resume" className="min-h-screen">
-            <h1 className="font-kumar font-xl">Resume</h1>
+            <h1 className="font-kumar text-xl">Resume</h1>
           </div>
         </main>
         <Footer />
