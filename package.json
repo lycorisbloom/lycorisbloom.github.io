@@ -11,8 +11,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^15.5.29",
-    "postcss": "^8.5.32",
+    "next": "^16.4.6",
+    "postcss": "^8.5.33",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
