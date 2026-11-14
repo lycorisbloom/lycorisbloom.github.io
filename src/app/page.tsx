@@ -15,7 +15,7 @@ export default function Home() {
             <p className="font-montserrat">Something is brewing...</p>
           </div>
           <div id="projects" className="min-h-screen">
-            <h1 className="font-kumar font-xl">Projects</h1>
+            <h1 className="font-kumar text-xl">Projects</h1>
             {/* fix this cooked code */}
             <div className="grid sm:grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 w-full">
               {projects.map((value: string) =>

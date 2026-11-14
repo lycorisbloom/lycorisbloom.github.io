@@ -31,14 +31,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 
+/* rudementary animation - need to fix rotation and only on selection */
 .hj {
   cursor: pointer;
 }
 
 .hamburg {
   display: flex;
-  height: 100vh;
 }
 
 .hj,
@@ -50,22 +49,22 @@ body {
 
 .hamburg.active .hj .top,
 .hj:hover .top {
-    transform: rotate(45deg);
-    transform-origin: center top;
-    x: 37.5px;
-    y: 26.25px;
+  transform: rotate(45deg);
+  transform-origin: center top;
+  x: 35.5px;
+  y: 26.25px;
 }
 
 .hamburg.active .hj .middle,
 .hj:hover .middle {
-    opacity: 0;
-    x: 0;
+  opacity: 0;
+  x: 0;
 }
 
 .hamburg.active .hj .bottom,
 .hj:hover .bottom {
-    transform: rotate(-45deg);
-    transform-origin: center top;
-    x: -15px;
-    y: 18.75px;
-} */
+  transform: rotate(-45deg);
+  transform-origin: center top;
+  x: -15px;
+  y: 15px;
+}
