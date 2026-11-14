@@ -31,7 +31,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* rudementary animation - need to fix rotation and only on selection */
+/* TODO: only on selection */
 .hj {
   cursor: pointer;
 }
@@ -65,6 +65,6 @@ body {
 .hj:hover .bottom {
   transform: rotate(-45deg);
   transform-origin: center top;
-  x: -15px;
-  y: 15px;
+  x: -13px;
+  y: 18px;
 }

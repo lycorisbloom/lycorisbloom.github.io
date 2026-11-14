@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+// TODO: might need to move to page.tsx bc it needs a state of selected or not for an overlay
+
 export default function Header() {
     return (
         <div className="flex flex-row justify-between select-none items-end w-full bg-foreground text-text-light fixed top-0 p-2">
