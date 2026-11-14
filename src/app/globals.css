@@ -17,12 +17,13 @@
   --color-text-dark: var(--text-dark);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #20341d;
+    --foreground: #ffedd2;
+    --text-light: #294122;
   }
-} */
+}
 
 body {
   background: var(--background);
