@@ -12,8 +12,8 @@ export default function Header() {
                         <Link href="#resume">Resume</Link>
                     </div>
                 </div>
-                <div className="md:hidden hamburg">
-                    <svg className="hj fill-text-light" height="50" width="50" viewBox="0 0 75 75">
+                <div className="hamburg">
+                    <svg className="hj fill-text-light md:hidden" height="50" width="50" viewBox="0 0 75 75">
                         <rect className="top" x="15" y="21.75" width="40" height="5"></rect>
                         <rect className="middle" x="15" y="34.1809" width="40" height="5"></rect>
                         <rect className="bottom" x="15" y="46.6117" width="40" height="5"></rect>
